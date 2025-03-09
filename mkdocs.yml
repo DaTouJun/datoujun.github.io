@@ -3,6 +3,8 @@ site_url: https://guansheng.github.io/mymkdocs/
 site_author: GuanSheng
 theme:
   name: material
+  features:
+    - navigation.expand
 plugins:
   - search
 
