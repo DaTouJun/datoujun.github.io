@@ -9,9 +9,8 @@ plugins:
   - search
 
 markdown_extensions:
-  - toc:
-      slugify: !!python/name:pymdownx.slugs.uslugify
-    
+  - toc
+
   - pymdownx.arithmatex:  # 此扩展负责识别公式语法
       generic: true       # 设置为 true，将公式原样传给前端库处理
 
